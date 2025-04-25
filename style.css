@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-size: x-large;
+    margin: 32rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #c2c2c2;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20%;
+
+    .image {
+        display: flex;
+        padding: 2rem;
+    }
+
+    .coordonnées {
+        display: inline;
+        text-align: center;
+        padding-top: 2rem
+    }
+
+    a {
+        color: black;
+    }
+
+    .horaire {
+        display: inline;
+        padding: 2rem;
+    }
+
+    .icone {
+        margin: 2rem;
+    }
+
+    .cgu {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .tableau {
+        padding-right: 20px;
+        text-align: left;
+        border-collapse: separate;
+        border-sa margin-left: 0;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    h3 {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
