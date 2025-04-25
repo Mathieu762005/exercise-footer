@@ -5,7 +5,7 @@
 
 main {
     font-size: x-large;
-    margin:32rem;
+    margin: 32rem;
     text-align: center;
 }
 
@@ -19,12 +19,13 @@ footer {
         display: flex;
         padding: 2rem;
     }
-    
+
     .coordonnées {
         display: inline;
         text-align: center;
         padding-top: 2rem
     }
+
     a {
         color: black;
     }
@@ -50,8 +51,7 @@ footer {
         padding-right: 20px;
         text-align: left;
         border-collapse: separate;
-        border-sa
-        margin-left: 0;
+        border-sa margin-left: 0;
     }
 
     h2 {
@@ -61,6 +61,6 @@ footer {
 
     h3 {
         margin-bottom: 1rem;
-        text-align: center; 
+        text-align: center;
     }
 }
