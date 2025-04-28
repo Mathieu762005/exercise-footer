@@ -5,62 +5,71 @@
 
 main {
     font-size: x-large;
-    margin: 32rem;
+    margin: 30rem;
     text-align: center;
 }
 
 footer {
+
     background-color: #c2c2c2;
-    display: flex;
-    justify-content: space-around;
-    padding: 0 20%;
+    width: 100%;
+    
 
-    .image {
-        display: flex;
-        padding: 2rem;
-    }
+}
 
-    .coordonnées {
-        display: inline;
-        text-align: center;
-        padding-top: 2rem
-    }
+.image, .coordonnées, .horaire {
+    display: inline-block;
+    vertical-align: top;
+    width: 32.5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
 
-    a {
-        color: black;
-    }
+.coordonnées {
+    text-align: center;
+    padding-top: 2rem;
+}
 
-    .horaire {
-        display: inline;
-        padding: 2rem;
-    }
+.coordonnées h2 {
+    padding-bottom: 1rem;
+}
 
-    .icone {
-        margin: 2rem;
-    }
+.coordonnées h3 {
+    padding: 0.5rem;
+}
 
-    .cgu {
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 20px;
+.coordonnées p {
+    padding-bottom: 1rem;
+}
 
-    }
+iframe {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-left: 10rem;
+}
 
-    .tableau {
-        padding-right: 20px;
-        text-align: left;
-        border-collapse: separate;
-        border-sa margin-left: 0;
-    }
+.icone {
+    padding-bottom: 3rem;
+}
 
-    h2 {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
+svg {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
-    h3 {
-        margin-bottom: 1rem;
-        text-align: center;
-    }
+table {
+    text-align: left;
+}
+
+.horaire, h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.horaire B {
+    padding-right: 5rem;
+}
+.horaire {
+    padding-top: 2rem;
 }
